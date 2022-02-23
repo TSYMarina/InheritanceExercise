@@ -8,13 +8,13 @@ namespace Inheritance
 
         }
 
-        public string mainHabitat;
-        public string scalesColor;
-        public int maxLength;
+        public string MainHabitat;
+        public string ScalesColor;
+        public int MaxLength;
 
         public void ReptileCard()
         {
-            Console.WriteLine($"live in {mainHabitat}, have {scalesColor} as a primary color and can reach {maxLength} feet in length.");
+            Console.WriteLine($"Main Habitat: {MainHabitat}, \nPrimary Color: {ScalesColor},\nMax Size: {MaxLength} feet.");
         }
 
     }

@@ -3,13 +3,10 @@ namespace Inheritance
 {
     public class Birds : Animal
     {
-        public Birds()
-        {
-        }
-
-        public bool livesByWater { get; set; }
-        public string placeOfOrigin { get; set; }
-        public string colorOfFeathers { get; set; }
-        public int commonSize { get; set; }
+        
+        public bool LivesByWater { get; set; }
+        public string PlaceOfOrigin { get; set; }
+        public string ColorOfFeathers { get; set; }
+        public int CommonSize { get; set; }
     }
 }
